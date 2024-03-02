@@ -5,9 +5,176 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  margin: 2rem;
+  
+}
+
+.section-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section-header{
+  text-align: center;
+}
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  
+}
+
+.article-container{
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+.device-img{
+  width: 400px;
+  height: 200px;
+  border-radius: 10px 10px 0 0 ;
+}
+
+.three-things{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-top: -2rem;
+}
+
+.main-descr{
+  margin-top: -10px;
+  line-height: 1.1;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-price{
+  margin-top: -1px;
+  line-height: 1.1;
+
+}
+
+.add-cart-btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.cart-btn{
+  padding: 10px;
+  margin-top: -2rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+}
+
+.cart-btn:hover{
+  color: gold;
+  background-color: purple;
+  transform: scale(1.1);
+}
+
+
+
+.cart-summary{
+  display: flex;
+  flex-direction: column;
+  background-color: slategray;
+  padding-right: 1rem;
+  border-radius: 10px;
+  justify-self: center;
+}
+
+.cart-num{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.list-header{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: -1rem;
+  line-height: 0;
+}
+
+.cart-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  margin: -1rem 0 0 -2rem;
+}
+
+.cart-article{
+  display: flex;
+  align-items: start;
+  background-color: white;
+  border-radius: 10px;
+  gap: 1rem;
+  
+}
+
+.cart-img{
+   width: 130px;
+   height: 130px;
+   border-radius: 10px 0 0 10px;
+}
+
+.cart-info{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  
+}
+
+.counter-btn{
+  background-color: white;
+  border: none;
+}
+
+.counter-icon-1{
+  color: red;
+  font-size: 1.5rem;
+}
+
+.counter-icon-2{
+  color: green;
+  font-size: 1.5rem;
+}
+
+.footer-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.clear-btn{
+  padding: 10px;
+  font-size: larger;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.clear-btn:hover{
+  background-color: purple;
+  color: white;
+  transform: scale(1.01);
+}
+
+
+
