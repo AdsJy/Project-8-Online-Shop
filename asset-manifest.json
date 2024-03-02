@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Project-8-Online-Shop/static/css/main.64d8178d.css",
+    "main.js": "/Project-8-Online-Shop/static/js/main.38520b07.js",
+    "index.html": "/Project-8-Online-Shop/index.html",
+    "main.64d8178d.css.map": "/Project-8-Online-Shop/static/css/main.64d8178d.css.map",
+    "main.38520b07.js.map": "/Project-8-Online-Shop/static/js/main.38520b07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64d8178d.css",
+    "static/js/main.38520b07.js"
+  ]
+}
